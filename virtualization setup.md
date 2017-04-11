@@ -64,3 +64,5 @@ https://www.ibm.com/support/knowledgecenter/linuxonibm/liaat/liaatbpkickoff.htm
 Pulse audio anonymous feed
 https://www.evonide.com/non-root-gpu-passthrough-setup/#Permissions_for_non-root_GPU_passthrough
 
+passmark crashing:
+http://www.passmark.com/forum/performancetest/4748-startup-error-number-4-on-qemu-bsod
