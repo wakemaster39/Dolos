@@ -11,6 +11,12 @@ libvirt-daemon-system
 libvirt-clients
 ```
 
+```
+Error starting domain: Requested operation is not valid: network 'default' is not active
+```
+In virtual machine manager, Edit>Connection Details>Default>Autostart[x]
+Reboot
+
 ## IOMMU Stuff
 
 Ryzen will need one of the later Linux kernels for best results.
