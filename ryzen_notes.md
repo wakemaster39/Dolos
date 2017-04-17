@@ -11,7 +11,7 @@ libvirt-daemon-system
 libvirt-clients
 ```
 
-# IOMMU Stuff
+## IOMMU Stuff
 
 Ryzen will need one of the later Linux kernels for best results.
 I used the latest from https://www.kernel.org/ 4.11-rc7 
