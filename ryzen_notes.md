@@ -38,7 +38,26 @@ IOMMU group 2
 This is what you want it to look like.
 
 ```
-IOMMU group 2
+IOMMU group 15
 	0a:00.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Hawaii XT / Grenada XT [Radeon R9 290X/390X] [1002:67b0]
 	0a:00.1 Audio device [0403]: Advanced Micro Devices, Inc. [AMD/ATI] Hawaii HDMI Audio [Radeon R9 290/290X / 390/390X] [1002:aac8]
 ```
+
+## ACS Override Patch Notes
+[Resource #1](http://vfio.blogspot.com/2014/08/vfiovga-faq.html)
+
+
+After you apply the ACS Override Patch you'll need to update your GRUB. To include pcie_acs_override=downstream.
+
+AMD Example
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet amd_iommu=on pcie_acs_override=downstream"
+```
+
+You then need to updade your grub again.
+```
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+Then reboot.
+
