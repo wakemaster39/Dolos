@@ -66,3 +66,17 @@ https://www.evonide.com/non-root-gpu-passthrough-setup/#Permissions_for_non-root
 
 passmark crashing:
 http://www.passmark.com/forum/performancetest/4748-startup-error-number-4-on-qemu-bsod
+
+
+
+Building synergy from source:
+```
+git clone https://github.com/symless/synergy-core.git
+git checkout ec56ac44
+QT_SELECT=4 ./hm.sh conf -g1
+./hm.sh conf build
+```
+
+
+
+
