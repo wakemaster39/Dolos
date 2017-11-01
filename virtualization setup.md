@@ -77,6 +77,7 @@ QT_SELECT=4 ./hm.sh conf -g1
 ./hm.sh conf build
 ```
 
-
+Install ac'97 driver:
+https://www.youtube.com/watch?v=5-Y-oq3DMMA
 
 
