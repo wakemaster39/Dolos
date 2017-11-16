@@ -74,7 +74,7 @@ Building synergy from source:
 git clone https://github.com/symless/synergy-core.git
 git checkout ec56ac44
 QT_SELECT=4 ./hm.sh conf -g1
-./hm.sh conf build
+./hm.sh build
 ```
 
 Install ac'97 driver:
