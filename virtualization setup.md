@@ -81,3 +81,9 @@ Install ac'97 driver:
 https://www.youtube.com/watch?v=5-Y-oq3DMMA
 
 
+iSCSI setup:
+* Linux: http://linux-iscsi.org/wiki/ISCSI
+* Winodws: http://www.thecus.com/download/howtoguide/HowtoConnecttoaniSCSITargetUsingWindows.pdf
+
+
+
